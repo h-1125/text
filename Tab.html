@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="Tab.css">
+</head>
+<body>
+	<div id='reback'>←撤销</div>
+	<div id='add'>+增加</div>
+	<ul id='tit'>
+		<li class='on'>标题1<div class='box'>×</div></li>
+		<li>标题2<div class='box'>×</div></li>
+		<li>标题3<div class='box'>×</div></li>
+		<li>标题4<div class='box'>×</div></li>
+	</ul>
+	<ul id="con">
+		<li>内容1</li>
+		<li>内容2</li>
+		<li>内容3</li>
+		<li>内容4</li>
+	</ul>
+	<script src='Tab.js'>
+		
+	</script>
+	<script>
+		tab('#tit','#con','#tit li','#con li','#tit .box','#reback','#add','on');
+	</script>
+</body>
+</html>

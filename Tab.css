@@ -1,0 +1,51 @@
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#tit li{
+	width:100px;
+	height:50px;
+	margin-right: 5px;
+	text-align: center;
+	background: pink;
+	float:left;
+}
+#tit{
+	overflow: hidden;
+
+}
+#tit li.on{
+	background: lightblue;
+}
+#con li{
+	/*width:415px;*/
+	height:100px;
+	text-align: center;
+	background: red;
+	display: none;
+}
+#con li:first-child{
+	display: block;
+}
+.box{
+	width:14PX;
+	height:19px;
+	margin-top: -3px;
+	float:right;
+}
+.box:hover{
+	background-color: gray;
+}
+.hide{
+	display: none!important;
+}
+#reback,#add{
+	width:100px;
+	height:50px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	background: pink;
+
+}
